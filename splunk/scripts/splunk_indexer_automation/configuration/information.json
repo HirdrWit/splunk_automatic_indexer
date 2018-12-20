@@ -1,0 +1,31 @@
+{"Index": 
+  {
+  "Type": "New", 
+  "index": "TestIndex",
+  "sourcetype": [
+    {"value":"sourcetype1"},
+    {"value":"sourcetype2"},
+    {"value":"sourcetype3"}
+      ],
+  "log_location": [
+    {"value":"/home/path/logs/sourcetype1"},
+    {"value":"/home/path/logs/sourcetype2"},
+    {"value":"/home/path/logs/sourcetype3"}
+      ],
+  "hosts": 
+  {
+    "prod": [
+      {"value": "prodServer1"},
+      {"value": "prodServer2"},
+      {"value": "prodServer3"}
+    ],
+    "perf": [
+      {"value": "perfServer1"},
+      {"value": "perfServer2"},
+      {"value": "perfServer3"}
+    ]
+  },
+  "existing_inputs":"../../etc/",
+  "existing_props":"../../etc/"
+}
+}
